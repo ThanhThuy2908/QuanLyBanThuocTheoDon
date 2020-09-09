@@ -92,6 +92,12 @@
     <Compile Include="KetNoi.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="view\FormTkThuoc.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="view\FormTkThuoc.Designer.cs">
+      <DependentUpon>FormTkThuoc.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="view\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -106,6 +112,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="view\FormTkThuoc.resx">
+      <DependentUpon>FormTkThuoc.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
