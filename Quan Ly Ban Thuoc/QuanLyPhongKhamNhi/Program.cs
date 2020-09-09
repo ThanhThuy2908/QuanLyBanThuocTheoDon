@@ -19,7 +19,7 @@ namespace QuanLyPhongKhamNhi
             Application.SetCompatibleTextRenderingDefault(false);
 
             BonusSkins.Register();
-            Application.Run(new FormDangNhap());
+            Application.Run(new Form1());
         }
     }
 }

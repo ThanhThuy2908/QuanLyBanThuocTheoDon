@@ -83,182 +83,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="view\FormQuanLyDN.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="view\FormQuanLyDN.Designer.cs">
-      <DependentUpon>FormQuanLyDN.cs</DependentUpon>
-    </Compile>
     <Compile Include="view\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="view\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="view\FormBacSi.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="view\FormBacSi.Designer.cs">
-      <DependentUpon>FormBacSi.cs</DependentUpon>
-    </Compile>
-    <Compile Include="view\FormBenhNhan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="view\FormBenhNhan.Designer.cs">
-      <DependentUpon>FormBenhNhan.cs</DependentUpon>
-    </Compile>
-    <Compile Include="view\FormDangNhap.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="view\FormDangNhap.Designer.cs">
-      <DependentUpon>FormDangNhap.cs</DependentUpon>
-    </Compile>
-    <Compile Include="view\FormDuocSi.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="view\FormDuocSi.Designer.cs">
-      <DependentUpon>FormDuocSi.cs</DependentUpon>
-    </Compile>
-    <Compile Include="view\FormHoaDon.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="view\FormHoaDon.Designer.cs">
-      <DependentUpon>FormHoaDon.cs</DependentUpon>
-    </Compile>
-    <Compile Include="view\FormPhieuKham.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="view\FormPhieuKham.Designer.cs">
-      <DependentUpon>FormPhieuKham.cs</DependentUpon>
-    </Compile>
-    <Compile Include="view\formThuoc.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="view\formThuoc.Designer.cs">
-      <DependentUpon>formThuoc.cs</DependentUpon>
-    </Compile>
-    <Compile Include="view\FormTkDoanhThu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="view\FormTkDoanhThu.Designer.cs">
-      <DependentUpon>FormTkDoanhThu.cs</DependentUpon>
-    </Compile>
-    <Compile Include="view\FormTkThanhTich.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="view\FormTkThanhTich.Designer.cs">
-      <DependentUpon>FormTkThanhTich.cs</DependentUpon>
-    </Compile>
-    <Compile Include="view\FormTkThuoc.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="view\FormTkThuoc.Designer.cs">
-      <DependentUpon>FormTkThuoc.cs</DependentUpon>
-    </Compile>
-    <Compile Include="view\FrmToaThuoc.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="view\FrmToaThuoc.Designer.cs">
-      <DependentUpon>FrmToaThuoc.cs</DependentUpon>
-    </Compile>
     <Compile Include="KetNoi.cs" />
-    <Compile Include="Model1.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="ModelPK.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ModelPK.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ModelPK.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ModelPK.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ModelPK.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ModelPK.edmx</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="reportPK.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="reportPK.Designer.cs">
-      <DependentUpon>reportPK.cs</DependentUpon>
-    </Compile>
-    <Compile Include="XtraReportCT.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="XtraReportCT.Designer.cs">
-      <DependentUpon>XtraReportCT.cs</DependentUpon>
-    </Compile>
-    <Compile Include="XtraReportPK.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="XtraReportPK.Designer.cs">
-      <DependentUpon>XtraReportPK.cs</DependentUpon>
-    </Compile>
-    <Compile Include="XuatCT.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="XuatHD.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="XuatPhieu.cs">
-      <DependentUpon>ModelPK.tt</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="view\FormQuanLyDN.resx">
-      <DependentUpon>FormQuanLyDN.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="view\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="view\FormBacSi.resx">
-      <DependentUpon>FormBacSi.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="view\FormBenhNhan.resx">
-      <DependentUpon>FormBenhNhan.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="view\FormDangNhap.resx">
-      <DependentUpon>FormDangNhap.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="view\FormDuocSi.resx">
-      <DependentUpon>FormDuocSi.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="view\FormHoaDon.resx">
-      <DependentUpon>FormHoaDon.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="view\FormPhieuKham.resx">
-      <DependentUpon>FormPhieuKham.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="view\formThuoc.resx">
-      <DependentUpon>formThuoc.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="view\FormTkDoanhThu.resx">
-      <DependentUpon>FormTkDoanhThu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="view\FormTkThanhTich.resx">
-      <DependentUpon>FormTkThanhTich.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="view\FormTkThuoc.resx">
-      <DependentUpon>FormTkThuoc.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="view\FrmToaThuoc.resx">
-      <DependentUpon>FrmToaThuoc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -271,33 +106,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="reportPK.resx">
-      <DependentUpon>reportPK.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="XtraReportCT.resx">
-      <DependentUpon>XtraReportCT.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="XtraReportPK.resx">
-      <DependentUpon>XtraReportPK.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
-    <EntityDeploy Include="ModelPK.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>ModelPK.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <EntityDeploy Include="Model1.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="Model1.edmx.diagram">
-      <DependentUpon>Model1.edmx</DependentUpon>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
     </None>
-    <None Include="ModelPK.edmx.diagram">
-      <DependentUpon>ModelPK.edmx</DependentUpon>
-    </None>
-    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -444,26 +258,6 @@
     <None Include="Resources\b8b46901-513b-4068-bdaa-256ea9b13e97.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Model1.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Model1.edmx</DependentUpon>
-      <LastGenOutput>Model1.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="Model1.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Model1.edmx</DependentUpon>
-      <LastGenOutput>Model1.cs</LastGenOutput>
-    </Content>
-    <Content Include="ModelPK.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>ModelPK.Context.cs</LastGenOutput>
-      <DependentUpon>ModelPK.edmx</DependentUpon>
-    </Content>
-    <Content Include="ModelPK.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ModelPK.edmx</DependentUpon>
-      <LastGenOutput>ModelPK.cs</LastGenOutput>
-    </Content>
     <None Include="Resources\bo_department1.svg" />
   </ItemGroup>
   <ItemGroup>
